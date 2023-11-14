@@ -41,6 +41,14 @@ img {
   align-items: center;
 }
 
+
+.flex__align--gap{
+  display:flex;
+  align-items: center;
+  gap:0.5rem;
+}
+
+
 .flex__center{
   display:flex;
   align-items: center;
@@ -50,4 +58,9 @@ img {
 
 .align{
   text-align:center;
+}
+
+.ionicon{
+  width:2rem;
+  /* color:green; */
 }
