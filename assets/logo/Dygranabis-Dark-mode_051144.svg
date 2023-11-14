@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 217.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #009300;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-family: Bahnschrift-SemiBoldSemiCondensed, Bahnschrift;
+        font-size: 43px;
+        font-variation-settings: 'wght' 600, 'wdth' 87;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="m125.05,0s-16.66,31.41-26.52,48.49c-9.85,17.09-15.4,35.56-5.23,55.42,10.16,19.86,31.75,56.35,31.75,56.35,0,0,17.21-32.33,25.52-46.65,8.31-14.32,17.09-31.41,6-55.88-11.08-24.48-23.79-43.88-31.52-57.73Z"/>
+    <path class="cls-1" d="m0,96.07h44.8c18.01,0,33.72,12.01,45.72,30.02,12.01,18.01,21.25,34.18,21.25,34.18h-50.8c-23.55,0-27.25-11.08-60.96-64.2Z"/>
+    <path class="cls-1" d="m250,96.07s-26.79,0-44.8,0c-18.01,0-33.72,12.01-45.72,30.02-12.01,18.01-21.25,34.18-21.25,34.18,0,0,27.25,0,50.8,0,23.55,0,27.25-11.08,60.96-64.2Z"/>
+  </g>
+  <text class="cls-5" transform="translate(18.28 205.42)"><tspan x="0" y="0">D</tspan><tspan class="cls-4" x="23.39" y="0">YG</tspan><tspan class="cls-2" x="64.31" y="0">R</tspan><tspan x="86.99" y="0">A</tspan><tspan class="cls-3" x="110.42" y="0">N</tspan><tspan x="134.65" y="0">ABIS</tspan></text>
+</svg>
