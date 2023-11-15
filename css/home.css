@@ -343,3 +343,99 @@ color: #555555;
 .news--btn{
   display:inline-block;
 }
+
+
+/* testimonial section */
+
+.customers__review{
+  padding:10rem 0;
+}
+
+.review__selection--btn button:not(:last-child){
+  margin-bottom:1rem;
+}
+
+.review__selection--btn button{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+   width:5rem;
+   height:5rem;
+  text-decoration:none;
+  border:0.1rem solid #E6E6E6;
+  border-radius:50%;
+  padding:1rem;
+  color:#1A1A1A;
+}
+
+.review__selection--btn button:hover{
+  background-color:#228B22;
+  color:#FFFFFF;
+}
+
+.review__section{
+  gap:4rem;
+  padding:2rem;
+}
+
+.review__card svg{
+  margin-bottom:1rem;
+}
+
+.customer__review--header,
+.customer__profile--review{
+  justify-content:space-between;
+}
+
+.comments{
+color: #4D4D4D;
+ font-size: 1.6rem;
+ font-weight: 400;
+ line-height: 2.5rem;
+ word-wrap: break-word;
+ margin-bottom:2rem;
+}
+
+.profile{
+  gap:1rem;
+}
+
+.profile__img img{
+  width:4rem;
+  height:4rem;
+  border-radius:50%;
+}
+
+.profile--name{
+color: #1A1A1A;
+ font-size: 1.2rem;
+ font-weight: 800;
+ line-height: 1.8rem;
+ word-wrap: break-word;
+}
+
+.profile--status{
+  display:block;
+
+  color: #999999;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5rem;
+   word-wrap: break-word;
+}
+
+.review--stars{
+  width:2rem;
+}
+
+
+/* contact us section */
+
+.contact__field{
+  padding:6rem;
+  background-color:#228B22;
+}
+
+.contact__instruction{
+  margin-bottom:2.5rem;
+}
