@@ -8,6 +8,8 @@
 
 html {
   font-size: 62.5%;
+  height: 100%;
+
 }
 
 body {
@@ -15,6 +17,8 @@ body {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.4rem;
+  height: 100%;
+
 }
 
 img {

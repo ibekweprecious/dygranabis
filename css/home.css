@@ -643,15 +643,37 @@ color: #1A1A1A;
     width: 100%;
     padding-top: 8rem;
     text-align: center;
+    
+   
   }
 
   .hero__section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+        url(/assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  
+    z-index: -1;
+    /* position: relative; */
+    height: 100%;
+    
+    }
+
+    .heading__primary {
+      color:#FFFFFF;
+    }
+  
+    .hero__text--paragraph {
+      color:rgba(255, 255, 255, 1);
+    }
+  /* .hero__section {
     background: linear-gradient(150deg, #f1f2f6 55%, rgba(232, 231, 226, 0) 70%),
         url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    }
+    } */
 
 }
 
