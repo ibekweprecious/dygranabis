@@ -1,14 +1,27 @@
 
 .hero__section {
-  background: linear-gradient(90deg, #f1f2f6 44%, rgba(232, 231, 226, 0) 55%),
-      url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+        url(/assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  
+    z-index: -1;
+    position: relative;
+    height: 100%;
+    
   }
 .hero__text {
-  width: 50%;
-  padding-top: 8rem;
+  width: 60%;
+  color:#FFFFFF;
+  padding-top: 10rem ;
+  padding-bottom: 11rem ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  /* margin-bottom: 5rem; */
 }
 
 .hero__text--paragraph {
@@ -18,7 +31,8 @@
   font-weight: 400;
   line-height: 2.9rem;
   word-wrap: break-word;
-  color: black;
+  color:rgba(255, 255, 255, 1);
+
   margin-bottom: 6rem;
 }
 
@@ -593,11 +607,16 @@ color: #1A1A1A;
   
   
   .hero__section {
-  background: linear-gradient(90deg, #f1f2f6 50%, rgba(232, 231, 226, 0) 60%),
-      url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+    url(/assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+
+z-index: -1;
+/* position: relative; */
+height: 100%;
+
   }
   
 }
@@ -610,12 +629,22 @@ color: #1A1A1A;
 
   
   .hero__section {
-    background: linear-gradient(90deg, #f1f2f6 55%, rgba(232, 231, 226, 0) 65%),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
+        url(/assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  
+    z-index: -1;
+    /* position: relative; */
+    height: 100%;
+  }
+    /* background: linear-gradient(90deg, #f1f2f6 55%, rgba(232, 231, 226, 0) 65%),
         url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    }
+    } */
   /* .heading__primary {
     font-size: 3.5rem;
     font-family: "Raleway", sans-serif;
@@ -654,7 +683,7 @@ color: #1A1A1A;
     background-size: cover;
     background-position: right;
   
-    z-index: -1;
+    
     /* position: relative; */
     height: 100%;
     
