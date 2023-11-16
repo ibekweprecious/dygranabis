@@ -72,7 +72,7 @@
 
 .header__text {
   display: inline-block;
-  max-width: 67rem;
+  /* width: 60%; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,7 +87,7 @@
 
 .header--paragraph {
   display: inline-block;
-  max-width: 67rem;
+  /* max-width: 67rem; */
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
   font-weight: 500;
@@ -123,7 +123,133 @@
 }
 
 
+.hambugger{
+  display:none;
+  cursor:pointer;
+}
+
+.bar{
+  display:block;
+  width:2.5rem;
+  height:0.3rem;
+  margin:0.5rem auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color:  #000000;
+}
+
+
 
 
 /* Blog News section */
+@media only screen and (max-width: 1146px){
+  .wrapper{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
+  html{
+    font-size: 60%;
+  }
+
+  .hambugger{
+    display:block;
+    cursor:pointer;
+  }
+}
+
+
+@media only screen and (max-width: 1100px){
+  .heading__big--secondary{
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .header--paragraph {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  
+.nav__link{
+  font-size:1.4rem ;
+}
+}
+
+@media only screen and (max-width: 942px){
+  
+.nav__list,.nav__btn{
+ display: none;
+}
+}
+
+@media only screen and (max-width: 886px){
+  .header__text {
+    width: 60%;    
+  }
+}
+@media only screen and (max-width: 770px){
+  .header__text {
+    width: 70%;    
+  }
+}
+
+@media only screen and (max-width: 622px){
+  html{
+    font-size: 55.5%;
+  }
+
+  .header__text {
+    width: 85%;    
+  }
+}
+@media only screen and (max-width: 477px){
+  .header__text {
+    width: 100%;   
+    padding:0 2rem ; 
+  }
+}
+@media only screen and (max-width: 438px){
+  .header__text {
+    width: 100%;   
+    padding:0 2rem ; 
+  }
+
+  .heading__big--secondary{
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+  }
+
+  .header--paragraph {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 404px){
+  
+  .heading__big--secondary{
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+
+  .header--paragraph {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 338px){
+  
+  html{
+    font-size: 53.5%;
+  }
+
+  .heading__big--secondary{
+    font-size: 2.8rem;
+    line-height: 2.5rem;
+  }
+}

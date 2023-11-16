@@ -44,6 +44,17 @@
   margin-bottom: 2rem;
 }
 
+.heading__secondary--sm{
+color: black;
+ font-size: 2rem;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 500;
+ text-transform: capitalize;
+ line-height: 4rem;
+ word-wrap: break-word;
+ margin-bottom: 2rem;
+}
+
 
 
 .heading__tetiary-green{
@@ -88,4 +99,10 @@
 .bg--white{
   color:#228B22;
   background-color:#FFFFFF;
+}
+
+
+/* font */
+.size--big{
+  font-size:3.2rem;
 }
