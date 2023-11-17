@@ -45,7 +45,7 @@
 }
 
 .heading__secondary--sm{
-color: black;
+/* color: black; */
  font-size: 2rem;
  font-family: "Montserrat", sans-serif;
  font-weight: 500;
@@ -99,6 +99,19 @@ color: black;
 .bg--white{
   color:#228B22;
   background-color:#FFFFFF;
+}
+
+.bg__green{
+  position: relative;
+  padding: 5rem;
+  background-color: #228b22;
+  overflow: hidden;
+}
+
+.bg__nuetral{
+  padding: 3rem;
+  background: linear-gradient(116deg, #F1FBF2 0%, #C0E8D0 100%);
+
 }
 
 

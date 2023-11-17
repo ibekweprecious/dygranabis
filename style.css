@@ -71,7 +71,7 @@
 }
 
 .header__text {
-  display: inline-block;
+  display: block;
   /* width: 60%; */
   position: absolute;
   top: 50%;
@@ -193,6 +193,15 @@
   .header__text {
     width: 70%;    
   }
+
+  
+.header__text {
+  width: 70%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
 }
 
 @media only screen and (max-width: 622px){
