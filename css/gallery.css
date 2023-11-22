@@ -6,6 +6,8 @@
 
   grid-gap: 1.5rem;
   padding:9rem 3rem;
+
+  /* on mobile use a lesser padding */
 }
 
 .gallery__img{

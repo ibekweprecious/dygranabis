@@ -72,7 +72,7 @@
 .heading__small{
   /* // Lorem ipsum dolor sit amet, conseceur adipiscing elit */
  font-size: 2.2rem;
- font-family: DM Sans;
+ /* font-family: DM Sans; */
  font-weight: 500;
  line-height: 2.8rem;
  word-wrap: break-word;
@@ -118,4 +118,13 @@
 /* font */
 .size--big{
   font-size:3.2rem;
+}
+
+.size--big2{
+  font-size:2.4rem;
+  line-height:3.6rem;
+  font-weight:600;
+  word-break: break-word;
+  color: #1A1A1A;
+  margin-bottom: 1rem;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Investments</title>
+    <title>Sign up</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +24,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="./css/about.css" rel="stylesheet" type="text/css" />
     <link href="./css/investment.css" rel="stylesheet" type="text/css" />
+    <link href="./css/contact.css" rel="stylesheet" type="text/css" />
+    <link href="./css/register.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="nav wrapper">
@@ -97,109 +99,54 @@
         <span class="bar"></span>
       </div>
     </nav>
+   
+    <section class="registration__section">
+      
+    <div class="registration">
+      <h2 class="heading__secondary color--black align">Create Account</h2>
+      <form class="registration__form form">
+        <input type="email" name="email" class="user__mails" id="registration__users--email" placeholder="Email" required/>
+        <fieldset class="password__container flex__align">
+          <input type="password" name="Password" class="password" id="registration__users--password" placeholder="Password" required/>
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="eye-open 1">
+            <g id="Group">
+            <path id="Vector" d="M1.66699 10.5003C1.66699 10.5003 4.69699 4.66699 10.0003 4.66699C15.3037 4.66699 18.3337 10.5003 18.3337 10.5003C18.3337 10.5003 15.3037 16.3337 10.0003 16.3337C4.69699 16.3337 1.66699 10.5003 1.66699 10.5003Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_2" d="M10 13C10.663 13 11.2989 12.7366 11.7678 12.2678C12.2366 11.7989 12.5 11.163 12.5 10.5C12.5 9.83696 12.2366 9.20107 11.7678 8.73223C11.2989 8.26339 10.663 8 10 8C9.33696 8 8.70107 8.26339 8.23223 8.73223C7.76339 9.20107 7.5 9.83696 7.5 10.5C7.5 11.163 7.76339 11.7989 8.23223 12.2678C8.70107 12.7366 9.33696 13 10 13V13Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            </g>
+            </svg>
+            
+        </fieldset>
+        <fieldset class="password__container flex__align">
+          <input type="password" name="Confirm--password" class="password" id="registration__confirm--password" placeholder="Confirm Password required" required/>
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="eye-open 1">
+            <g id="Group">
+            <path id="Vector" d="M1.66699 10.5003C1.66699 10.5003 4.69699 4.66699 10.0003 4.66699C15.3037 4.66699 18.3337 10.5003 18.3337 10.5003C18.3337 10.5003 15.3037 16.3337 10.0003 16.3337C4.69699 16.3337 1.66699 10.5003 1.66699 10.5003Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="Vector_2" d="M10 13C10.663 13 11.2989 12.7366 11.7678 12.2678C12.2366 11.7989 12.5 11.163 12.5 10.5C12.5 9.83696 12.2366 9.20107 11.7678 8.73223C11.2989 8.26339 10.663 8 10 8C9.33696 8 8.70107 8.26339 8.23223 8.73223C7.76339 9.20107 7.5 9.83696 7.5 10.5C7.5 11.163 7.76339 11.7989 8.23223 12.2678C8.70107 12.7366 9.33696 13 10 13V13Z" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            </g>
+            </svg>
+            
+        </fieldset>
+        
+        <input type="checkbox" id="accept--terms" name="accept--terms" required value="Accept all terms and Conditions"/>
+        <label for="terms__condition" class="terms" >
+          Accepts all terms and Conditions
+        </label>
+        <button class="registration--btn primary__btn green">
+          Create Account
+        </button>
 
-    <div class="bg__green">
-      <svg width="1440" height="144" class="frame" viewBox="0 0 1440 144" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0.999329 1.6665C914.297 306.516 869.746 -30.974 1440 143.006" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
-        </svg>
-        
-        
-      <h2 class="heading__secondary size--big about__header color--white align">
-        Who We Are
-      </h2>
-
-      <svg width="96" height="53" class="ellipse" viewBox="0 0 96 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id="Ellipse 1251" d="M94.3596 26.5822C94.3596 33.2794 89.4379 39.5555 81.0114 44.2149C72.6198 48.855 60.9589 51.7562 48.024 51.7562C35.0892 51.7562 23.4283 48.855 15.0366 44.2149C6.61012 39.5555 1.68848 33.2794 1.68848 26.5822C1.68848 19.8849 6.61012 13.6089 15.0366 8.94951C23.4283 4.30938 35.0892 1.4082 48.024 1.4082C60.9589 1.4082 72.6198 4.30938 81.0114 8.94951C89.4379 13.6089 94.3596 19.8849 94.3596 26.5822Z" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
-        </svg>
-        
+        <div class="reset align">
+          
+          <span class="follow--login">Accept all terms & Conditions</span>
+          <a href="#" class="login__page--link">Login</a>
+        </div>
+      </form>
     </div>
 
-    <section class="investment__section">
-      <h2 class="heading__secondary color--black align">Simple pricing</h2>
-      <p class="investment__info align">
-        Lorem ipsum dolor sit amet consectetur adipiscing eli <br/> mattis sit phasellus mollis sit aliquam sit nullam neque.
-      </p>
-      <div class="investment">
-        <div class="investment__plans plan--1">
-          <div class="plan__details"> 
-            <h4 class="plan--header color">Starter Plan</h4>
-            <span class="plan--price color">$500 - $9,999</span>
-            <span class="plan--description color">Get 30% Profit in 10 Days. 10% Referral Bonus</span>
-          </div>
-
-          <button class="plan__subscription--btn">Upgrade to Lite plan
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-          </button>
-        </div>
-
-        <div class="investment__plans plan--2">
-          <div class="plan__details"> 
-            <h4 class="plan--header color">Silver Plan</h4>
-            <span class="plan--price color">$10,000 - $49,999</span>
-            <span class="plan--description color">Get 40% Profit in 15 Days. 10% Referral Bonus</span>
-          </div>
-
-          <button class="plan__subscription--btn">Upgrade to Lite plan
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-          </button>
-        </div>
-        
-                <div class="investment__plans plan--3">
-                  <div class="plan__details"> 
-                    <h4 class="plan--header color">Gold Plan</h4>
-                    <span class="plan--price color">$49,999 - $999,999</span>
-                    <span class="plan--description color">Get 50% Profit in 20 Days. 10% Referral Bonus</span>
-                  </div>
-          
-                  <button class="plan__subscription--btn">Upgrade to Lite plan
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-                  </button>
-                </div>
-              
-          
-                <div class="investment__plans plan--5">
-                  <div class="plan__details"> 
-                    <h4 class="plan--header color">Premium Plan</h4>
-                    <span class="plan--price color">$45,000 - $499,999</span>
-                    <span class="plan--description color">Get 80% Profit in 25 Days. 10% Referral Bonus</span>
-                  </div>
-          
-                  <button class="plan__subscription--btn">Upgrade to Lite plan
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-                  </button>
-                </div>
-              
-          
-                <div class="investment__plans plan--4">
-                  <div class="plan__details"> 
-                    <h4 class="plan--header bg--plan">Platinium Plan</h4>
-                    <span class="plan--price bg--plan">$500,000 - $999,999</span>
-                    <span class="plan--description bg--plan">Get 100% Profit in 30 Days. 10% Referral Bonus</span>
-                  </div>
-          
-                  <button class="plan__subscription--btn">Upgrade to Lite plan
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></svg>
-                  </button>
-                </div>
-
-      </div>
-
-    
-    </section>
-
-    <div class="bg__nuetral"></div>
-
-    <section class="contact__field">
-      <h2 class="heading__secondary color--white align">
-        Do you have more questions?
-      </h2>
-      <p class="contact__instruction align color--white">
-        Lorem ipsum dolor sit samet, comsecteur <br />
-        cindo ameit dolorem.
-      </p>
-      <div class="btn__container align">
-        <a href="#" class="primary__btn bg--white algin">Contact Us</a>
-      </div>
     </section>
 
     <footer class="footer">

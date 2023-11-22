@@ -32,8 +32,6 @@ img {
   margin: 0 auto;
 }
 
-
-
 .grid--3col{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -67,4 +65,8 @@ img {
 .ionicon{
   width:2rem;
   /* color:green; */
+}
+
+.section--header{
+  margin-bottom: 4rem;
 }

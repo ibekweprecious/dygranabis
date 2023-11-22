@@ -1,0 +1,15 @@
+
+.check__page{
+  justify-content: space-between;
+  border: none;
+}
+
+.check__remember{
+  border: none;
+}
+
+.forgotten{
+    font-weight: 600;
+    text-decoration: none;
+    color: #666666;
+}

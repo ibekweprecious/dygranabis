@@ -1,0 +1,96 @@
+.registration__section{
+  padding: 8rem 0;
+}
+.registration{
+  max-width: 40%;
+  margin:0 auto;
+  padding:6rem 2rem;
+  box-shadow: 0px 0px 5.6rem rgba(0, 38.25, 2.55, 0.08);
+
+}
+
+.user__mails{
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.password__container{
+ justify-content: space-between;
+ gap: 1rem;
+ border-radius: 0.8rem;
+ padding: 1.5rem 1rem;
+ margin-bottom: 2rem;
+ border: 0.1rem solid #E6E6E6;
+
+}
+
+.password{
+  font-size: 1.6rem;
+  flex-grow: 1;
+  outline: none;
+  border: none;
+}
+
+.terms{
+  display: inline-block;
+  margin-left: 0.8rem;
+ 
+}
+
+.registration--btn{
+  font-size: 1.6rem;
+  display: block;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.follow--login,
+.terms{
+  /* // Already have account */
+color: #666666;
+ font-size: 1.6rem;
+ font-weight: 400;
+ line-height: 2.1rem;
+ word-wrap: break-word;
+}
+
+.login__page--link{
+  font-weight: 600;
+  text-decoration: none;
+  color: #666666;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 1147px){
+  .registration{
+    max-width: 60%;
+  
+  }
+}
+
+@media only screen and (max-width: 750px){
+  
+  .registration__section{
+    padding: 5rem 2rem;
+  }
+  
+  .registration{
+    max-width: 80%;
+  
+  }
+}
+
+
+@media only screen and (max-width: 500px){
+  .registration{
+    max-width: 100%;
+  
+  }
+}
