@@ -1,27 +1,21 @@
 
 .hero__section {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
-        url(../assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-  
-    z-index: -1;
-    position: relative;
-    height: 100%;
-    
-  }
+
+  background: linear-gradient(90deg, #F1F2F6 45%, rgba(232, 231, 226, 0) 58%),
+  url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+/* height: 100vh; */
+padding:8rem 0 ;
+/* overflow: hidden; */
+
+}
+
 .hero__text {
-  width: 60%;
-  color:#FFFFFF;
-  padding-top: 10rem ;
-  /* padding-bottom: 6rem ; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  height: 100%;
-  /* margin-bottom: 5rem; */
+  color: #228B22;
+  width: 50%;
+  /* padding-top: 10rem ; */
 }
 
 .hero__text--paragraph {
@@ -31,7 +25,7 @@
   font-weight: 400;
   line-height: 2.9rem;
   word-wrap: break-word;
-  color:rgba(255, 255, 255, 1);
+  color:#000000;
 
   margin-bottom: 6rem;
 }
@@ -58,6 +52,7 @@
   background-color:rgba(255, 255, 255, 1);  
   justify-items:center; 
   row-gap: 2rem;
+  /* z-index: 2; */
 }
 
 .commodities{
@@ -611,18 +606,30 @@ color: #1A1A1A;
 
 
 /* media query */
-@media only screen and (max-width: 1163px){
+
+
+@media only screen and (max-width: 990px){
+
+  .hero__section {
+
+    background: linear-gradient(90deg, #F1F2F6 53%, rgba(232, 231, 226, 0) 65%),
+    url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  
+      
+    }
   .hero__text {
-    width: 85%;
+    width: 60%;
+    /* padding-top: 10rem ; */
   }
   
 }
 
-
-@media only screen and (max-width: 990px){
-  .hero__text {
-    width: 85%;
-  }
+@media only screen and (max-width: 984px){
+  
   
 }
 
@@ -636,60 +643,53 @@ color: #1A1A1A;
     width: 60%;
   }
 }
-/* 
+
 @media only screen and (max-width: 944px){
   
   
   .hero__section {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%),
-    url(../assets/img/matthew-brodeur-qcCPIhhdgTw-unsplash\ \(1\).jpg);
+   
+  background: linear-gradient(90deg, #F1F2F6 58%, rgba(232, 231, 226, 0) 68%),
+  url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: right;
 
-z-index: -1;
-/* position: relative; */
-/* height: 100%; */
-
-  /* } */
+} 
    
-/* } */
+} 
 
-/* @media only screen and (max-width: 844px){
+@media only screen and (max-width: 844px){
 
  
 
-  }
-    /* background: linear-gradient(90deg, #f1f2f6 55%, rgba(232, 231, 226, 0) 65%),
+.hero__section {
+     background: linear-gradient(90deg, #f1f2f6 60%, rgba(232, 231, 226, 0) 68%),
         url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    } */
-  /* .heading__primary {
+   } 
+   .heading__primary {
     font-size: 3.5rem;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     line-height: 5rem;
     word-wrap: break-word;
     margin-bottom: 2rem;
-  } */
-
-  
-
-  
-/* } */
-
-@media only screen and (max-width: 958px){
-  .hero__text {
-    width: 90%;
   }
+
+  .hero-btn{
+    margin-bottom: 3rem;
+  }
+
+  
+
+  
 }
 
 @media only screen and (max-width: 839px){
-  .hero__text {
-    width: 100%;
-  }
+  
 
   .discription__text{
     padding: 4rem;
@@ -699,18 +699,10 @@ z-index: -1;
 
 @media only screen and (max-width: 722px){
 
-  .hero__text {
-    width: 100%;
-    padding-top: 8rem;
-    text-align: center;
-    
-   
-  }
+
 
   
-    .hero__text--paragraph {
-      color:rgba(255, 255, 255, 1);
-    }
+   
   /* .hero__section {
     background: linear-gradient(150deg, #f1f2f6 55%, rgba(232, 231, 226, 0) 70%),
         url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
@@ -732,8 +724,37 @@ z-index: -1;
   }
 }
 
+@media only screen and (max-width: 670px){
+  .hero__text{
+    width: 70%;
+  }
+}
+
 
 @media only screen and (max-width: 600px){
+  .hero__section{
+    background: linear-gradient(155deg, #F1F2F6 63%, rgba(232, 231, 226, 0) 85%),
+  url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+  }
+ 
+  .hero__text{
+  width: 100%;
+  text-align: center;
+ }
+
+ 
+.hero__text--paragraph {
+  /* margin-bottom: 2rem; */
+}
+
+
+.hero-btn{
+  /* margin-bottom: 1rem; */
+}
+
   .about__us{
     flex-direction: column;
   }
@@ -840,7 +861,7 @@ z-index: -1;
 
     font-size: 1.8rem;
     line-height: 2.9rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
   
 }
