@@ -745,16 +745,6 @@ background-position: right;
   text-align: center;
  }
 
- 
-.hero__text--paragraph {
-  /* margin-bottom: 2rem; */
-}
-
-
-.hero-btn{
-  /* margin-bottom: 1rem; */
-}
-
   .about__us{
     flex-direction: column;
   }
