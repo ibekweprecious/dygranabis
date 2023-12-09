@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DYGRANABIS</title>
+    <title>Product details</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +22,13 @@
     <link href="./css/topography.css" rel="stylesheet" type="text/css" />
     <link href="./css/general.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/about.css" rel="stylesheet" type="text/css" />
+    <link href="./css/contact.css" rel="stylesheet" type="text/css" />
+    <link href="./css/gallery.css" rel="stylesheet" type="text/css" />
+    <link href="./css/product.css" rel="stylesheet" type="text/css" />
+    <link href="./css/cart.css" rel="stylesheet" type="text/css" />
+    <link href="./css/register.css" rel="stylesheet" type="text/css" />
+    <link href="./css/payment.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="nav wrapper">
@@ -95,57 +102,140 @@
         <span class="bar"></span>
       </div>
     </nav>
-    <header class="main__header">
-      <div class="header__text">
-        <h2 class="heading__big--secondary h--white">Welcome to Dygranabis</h2>
-        <p class="header--paragraph">
-          Discover Nature Recipd3es: Your Source for Cannabis and Medicinal Plant
-          Solutions
-        </p>
-        <form action="" class="header_form">
-          <fieldset class="header__fieldset">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Your cart is currently empty."
-            />
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M3 6H21"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+
+    <section class="bg__green">
+      <svg width="1440" height="144" class="frame" viewBox="0 0 1440 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.999329 1.6665C914.297 306.516 869.746 -30.974 1440 143.006" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
+        </svg>
+        
+        
+      <h2 class="heading__secondary size--big about__header color--white align">
+        Payment
+      </h2>
+
+      <svg width="96" height="53" class="ellipse" viewBox="0 0 96 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Ellipse 1251" d="M94.3596 26.5822C94.3596 33.2794 89.4379 39.5555 81.0114 44.2149C72.6198 48.855 60.9589 51.7562 48.024 51.7562C35.0892 51.7562 23.4283 48.855 15.0366 44.2149C6.61012 39.5555 1.68848 33.2794 1.68848 26.5822C1.68848 19.8849 6.61012 13.6089 15.0366 8.94951C23.4283 4.30938 35.0892 1.4082 48.024 1.4082C60.9589 1.4082 72.6198 4.30938 81.0114 8.94951C89.4379 13.6089 94.3596 19.8849 94.3596 26.5822Z" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
+        </svg>
+    </section>
+
+    <section class="billing__information">
+      <div class="information__container wrapper">
+        <h3 class="heading__tetiary">Billing Information</h3>
+   
+        <form action="" class="information__form">
+          <fieldset class="details__fieldset flex__align">
+            <fieldset class="username flex__column mg-top">
+              <label for="first-name">First Name</label>
+              <input type="text" name="user--name" id="user--name" placeholder="Your First name" required/>
+
+            </fieldset>
+
+            <fieldset class="username flex__column mg-top">
+
+              <label for="last-name">Last Name</label>
+              <input type="text" name="username" id="user-name" placeholder="Your last name" required/>
+            </fieldset>
+
           </fieldset>
 
-          <a href="home.html" class="header__btn primary__btn green">Home</a>
-          <a href="products.html" class="header__btn primary__btn green">Cart</a>
+
+          <fieldset class="username flex__column">
+
+            <label for="street--address">Street Address</label>
+            <input type="text" name="street-address" id="street--address" placeholder="e.g no.86 London villa" required/>
+          </fieldset>
+
+          <fieldset class="username flex__column">
+
+            <label for="Company--name" class="mg-top">Company Name <small>(optional)</small></label>
+            <input type="text" name="company-name" id="company-name" placeholder="Company name"/>
+          </fieldset>
+
+
+          <fieldset class="details__fieldset flex__align">
+            <fieldset class="username flex__column mg-top">
+              <label for="country" >Country / Region</label>
+              <select name="country" id="billing--country">
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+                <option value="california">california</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Uk">United Kingdom</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ukrain">Ukrain</option>
+                <option value="Russia">Russia</option>
+                <option value="London">London</option>
+              </select>
+
+            </fieldset>
+
+            <fieldset class="username flex__column mg-top">
+              <label for="country">State</label>
+              <select name="country" id="billing--country">
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+                <option value="california">california</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Uk">United Kingdom</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ukrain">Ukrain</option>
+                <option value="Russia">Russia</option>
+                <option value="London">London</option>
+              </select>            
+            </fieldset>
+
+          </fieldset>
+
+
+          <fieldset class="details__fieldset flex__align">
+            <fieldset class="username flex__column">
+              <label for="user--email">Email</label>
+              <input type="text" name="user--email" id="user--email" placeholder="Email" required/>
+
+            </fieldset>
+
+
+          </fieldset>
+
+          <input type="checkbox" id="accept--terms" name="accept--terms" required value="Accept all terms and Conditions"/>
+        <label for="terms__condition" class="terms" >
+          Ship to a different address
+        </label>
+
+        <hr/>
+        <!-- <input type="email" name="email" class="user-email" id="" placeholder="Email" required/> -->
+        <h3 class="heading__tetiary">Additional Info</h3>
+         
+        <fieldset class="username flex__column">
+         <label for="Company--name">Order Notes <small>(Optional)</small></label>
+
+          <textarea name="subject" id="subject" cols="30" rows="7" placeholder="Notes about your order, e.g. special notes for delivery" required></textarea>
+         
+        </fieldset>
+
+        
         </form>
+
       </div>
-    </header>
+    </section>
+
+
+    
+
+  
+
+    <section class="contact__field">
+      <h2 class="heading__secondary color--white align">
+        Do you have more questions?
+      </h2>
+      <p class="contact__instruction align color--white">
+        Lorem ipsum dolor sit samet, comsecteur <br />
+        cindo ameit dolorem.
+      </p>
+      <div class="btn__container align">
+        <a href="#" class="primary__btn bg--white algin">Contact Us</a>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="footer__container grid--3col wrapper">
@@ -235,7 +325,7 @@
                   stroke-width="48"
                   d="M268 112l144 144-144 144M392 256H100"
                 />
-            </svg>
+              </svg>
             </fieldset>
           </form>
 

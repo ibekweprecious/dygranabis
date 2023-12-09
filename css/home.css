@@ -2,7 +2,7 @@
 .hero__section {
 
   background: linear-gradient(90deg, #F1F2F6 45%, rgba(232, 231, 226, 0) 58%),
-  url(/assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5\ 1\ \(1\).png);
+  url(../assets/img/360_F_240187494_14XpmIch1dBAt6yucIzQvx2GDhF5DcV5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: right;
@@ -148,13 +148,11 @@ padding:8rem 0 ;
 .product__section{
   padding:11rem 0;
   background-color:#F5F5F5;;
-  /* background-color:red; */
 }
 
 
 .product__container{
   gap:4rem 1.8rem;
-  /* padding-top: 4rem; */
   margin-bottom:6rem;
 }
 
@@ -310,9 +308,6 @@ padding:8rem 0 ;
 
 .blog__news{
   gap:4rem 2rem;
-  /* display:grid; */
-  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
-  /* grid-auto-flow: colu; */
 }
 
 .news__card{
@@ -349,7 +344,7 @@ padding:8rem 0 ;
 
 .news__date{
 color: #555555;
- font-size: 1.4rem;
+ font-size: 1.2rem;
  font-family: 'Montserrat', sans-serif;
  font-weight: 400;
  line-height: 2rem;

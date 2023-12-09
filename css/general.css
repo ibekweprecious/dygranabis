@@ -70,3 +70,11 @@ img {
 .section--header{
   margin-bottom: 4rem;
 }
+
+
+/* blog news code */
+
+.blog__news--section{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DYGRANABIS</title>
+    <title>Product details</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +22,10 @@
     <link href="./css/topography.css" rel="stylesheet" type="text/css" />
     <link href="./css/general.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/about.css" rel="stylesheet" type="text/css" />
+    <link href="./css/gallery.css" rel="stylesheet" type="text/css" />
+    <link href="./css/product.css" rel="stylesheet" type="text/css" />
+    <link href="./css/cart.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="nav wrapper">
@@ -95,57 +99,176 @@
         <span class="bar"></span>
       </div>
     </nav>
-    <header class="main__header">
-      <div class="header__text">
-        <h2 class="heading__big--secondary h--white">Welcome to Dygranabis</h2>
-        <p class="header--paragraph">
-          Discover Nature Recipd3es: Your Source for Cannabis and Medicinal Plant
-          Solutions
-        </p>
-        <form action="" class="header_form">
-          <fieldset class="header__fieldset">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Your cart is currently empty."
-            />
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M3 6H21"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10"
-                stroke="#555555"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </fieldset>
 
-          <a href="home.html" class="header__btn primary__btn green">Home</a>
-          <a href="products.html" class="header__btn primary__btn green">Cart</a>
-        </form>
+    <section class="bg__green">
+      <svg width="1440" height="144" class="frame" viewBox="0 0 1440 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.999329 1.6665C914.297 306.516 869.746 -30.974 1440 143.006" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
+        </svg>
+        
+        
+      <h2 class="heading__secondary size--big about__header color--white align">
+        Product details
+      </h2>
+
+      <svg width="96" height="53" class="ellipse" viewBox="0 0 96 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Ellipse 1251" d="M94.3596 26.5822C94.3596 33.2794 89.4379 39.5555 81.0114 44.2149C72.6198 48.855 60.9589 51.7562 48.024 51.7562C35.0892 51.7562 23.4283 48.855 15.0366 44.2149C6.61012 39.5555 1.68848 33.2794 1.68848 26.5822C1.68848 19.8849 6.61012 13.6089 15.0366 8.94951C23.4283 4.30938 35.0892 1.4082 48.024 1.4082C60.9589 1.4082 72.6198 4.30938 81.0114 8.94951C89.4379 13.6089 94.3596 19.8849 94.3596 26.5822Z" stroke="#D9D9D9" stroke-opacity="0.15" stroke-width="2"/>
+        </svg>
+    </section>
+
+
+    <section class="cart__section">
+      <h2 class="heading heading__secondary align">My Shopping Cart</h2>
+
+      <div class="cart__container flex__align wrapper">
+        <div class="container__one">
+          <div class="product__table">
+
+
+            <div class="table__header flex__align">
+              <span class="item--header">Product</span>
+              <span class="item--header mg--lft-1">Price</span>
+              <span class="item--header mg--lft">Quantity</span>
+              <span class="item--header">SumTotal</span>
+            </div>
+
+
+            <div class="table__row--1 flex__align">
+              <div class="item__img--name flex__align">
+                <img src="./assets/img/image-anne.jpg" alt=""/>
+                <span class="item--name">Green Capsicum</span>
+              </div>
+               
+
+              <span class="price--header">$14.00</span>
+              
+
+              <div class="product__counter flip">
+                <button class="add--btn decreament">-</button>
+                <span class="amount--added">5</span>
+                <button class="add--btn increament">+</button>
+              </div>
+
+              <div class="sub--total flex__align">
+              <span class="price--total">$70.00</span>
+
+              <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Close" clip-path="url(#clip0_338_115)">
+                <path id="Vector" d="M11.4713 21.5148C17.1457 21.5148 21.7463 16.9142 21.7463 11.2398C21.7463 5.56548 17.1457 0.964844 11.4713 0.964844C5.79692 0.964844 1.19629 5.56548 1.19629 11.2398C1.19629 16.9142 5.79692 21.5148 11.4713 21.5148Z" stroke="#CCCCCC" stroke-width="0.934091" stroke-miterlimit="10"/>
+                <path id="Vector_2" d="M15.2071 7.50391L7.73438 14.9766" stroke="#666666" stroke-width="1.40114" stroke-linecap="round" stroke-linejoin="round"/>
+                <path id="Vector_3" d="M15.2071 14.9766L7.73438 7.50391" stroke="#666666" stroke-width="1.40114" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_338_115">
+                <rect width="22.4182" height="22.4182" fill="white" transform="translate(0.262695 0.03125)"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+
+              </div>
+            </div>
+
+
+            <div class="table__row--1 flex__align">
+              <div class="item__img--name flex__align">
+                <img src="./assets/img/image-colton.jpg" alt=""/>
+                <span class="item--name">Green Capsicum</span>
+              </div>
+               
+
+              <span class="price--header">$14.00</span>
+              
+
+              <div class="product__counter flip">
+                <button class="add--btn decreament">-</button>
+                <span class="amount--added">5</span>
+                <button class="add--btn increament">+</button>
+              </div>
+
+              <div class="sub--total flex__align">
+              <span class="price--total">$70.00</span>
+
+              <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Close" clip-path="url(#clip0_338_115)">
+                <path id="Vector" d="M11.4713 21.5148C17.1457 21.5148 21.7463 16.9142 21.7463 11.2398C21.7463 5.56548 17.1457 0.964844 11.4713 0.964844C5.79692 0.964844 1.19629 5.56548 1.19629 11.2398C1.19629 16.9142 5.79692 21.5148 11.4713 21.5148Z" stroke="#CCCCCC" stroke-width="0.934091" stroke-miterlimit="10"/>
+                <path id="Vector_2" d="M15.2071 7.50391L7.73438 14.9766" stroke="#666666" stroke-width="1.40114" stroke-linecap="round" stroke-linejoin="round"/>
+                <path id="Vector_3" d="M15.2071 14.9766L7.73438 7.50391" stroke="#666666" stroke-width="1.40114" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_338_115">
+                <rect width="22.4182" height="22.4182" fill="white" transform="translate(0.262695 0.03125)"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+
+              </div>
+            </div>
+
+            <div class="cart--btn flex__align">
+              <a href="#" class="return__cart cart--cta">Return to shop</a>
+              <a href="#" class="update__cart cart--cta" >Update cart</a>
+            </div>
+          </div>
+
+
+
+          <div class="coupon__page">
+            <span class="coupon__title">Coupon code</span>
+
+            <form action="" class="coupon__form">
+              <input type="text" name="coupon" id="coupon" placeholder="Enter coupon" required/>
+              <button class="apply-coupon">Apply Coupon</button>
+              
+            </form>
+          </div>
+
+
+          
+        </div>
+
+        <div class="container__two">
+          <span class="cart__total">Cart Total</span>
+
+          <div class="total flex__align">
+            <span class="service">Subtotal:</span>
+            <span class="service--price">$84.00</span>
+          </div>
+
+
+          <div class="total flex__align">
+            <span class="service">Shipping free:</span>
+            <span class="service--price">free</span>
+          </div>
+
+
+          <div class="total flex__align">
+            <span class="service">Total:</span>
+            <span class="service--price">$84.00</span>
+          </div>
+
+
+          <button class="add checkout--btn primary__btn green">
+            Proceed to checkout
+          </button>
+        </div>
       </div>
-    </header>
+    </section>
+
+  
+
+    <section class="contact__field">
+      <h2 class="heading__secondary color--white align">
+        Do you have more questions?
+      </h2>
+      <p class="contact__instruction align color--white">
+        Lorem ipsum dolor sit samet, comsecteur <br />
+        cindo ameit dolorem.
+      </p>
+      <div class="btn__container align">
+        <a href="#" class="primary__btn bg--white algin">Contact Us</a>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="footer__container grid--3col wrapper">
@@ -235,7 +358,7 @@
                   stroke-width="48"
                   d="M268 112l144 144-144 144M392 256H100"
                 />
-            </svg>
+              </svg>
             </fieldset>
           </form>
 

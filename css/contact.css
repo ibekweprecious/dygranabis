@@ -109,20 +109,16 @@ textarea::placeholder{
  .contact__info--left{
   width: 100%;
   display: flex;
-  /* gap: 3rem; */
   justify-content: space-between;
-  /* flex-direction: row;/ */
  }
 
  .contact__address:not(:last-child){
   border-right: 1px solid #E6E6E6;
   margin-bottom: 2rem;
-  /* padding: 2rem; */
   border-bottom: none;
 }
  .contact__address{
   width: 100%;
-  /* border-right: 1px solid #E6E6E6; */
   margin-bottom: 2rem;
   padding: 2rem;
   border-bottom: none;
@@ -148,7 +144,6 @@ textarea::placeholder{
  .contact__info--left{
   width: 100%;
   display: flex;
-  /* gap: 3rem; */
   justify-content: space-between;
   flex-direction: column;
  }
